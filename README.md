@@ -1,2 +1,4 @@
 # abdul
-website
+/to-do
+put real essays
+better design
