@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Sarah Johnson - English Teacher & Researcher</title>
-    <style>
-       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-white text-gray-700">
+    
     <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-<div class="profile-photo">
-    <img src="profile.jpg" alt="Your Name" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-</div>                <div class="profile-info">
-                    <h1>Dr. Sarah Johnson</h1>
-                    <p class="description">English teacher & researcher exploring language, identity, and learning</p>
-                    <div class="contact-links">
-                        <a href="mailto:sarah@example.com" class="contact-link">
-                            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <header class="py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                <div class="w-32 h-32 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 text-sm">
+                    Your Photo
+                </div>
+                <div class="flex-1 text-center md:text-left">
+                    <h1 class="text-3xl font-light text-gray-900 mb-2">Dr. Sarah Johnson</h1>
+                    <p class="text-lg text-gray-600 mb-6">English teacher & researcher exploring language, identity, and learning</p>
+                    <div class="flex flex-col sm:flex-row gap-4 items-center md:items-start">
+                        <a href="mailto:sarah@example.com" class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                             </svg>
                             sarah@example.com
                         </a>
-                        <a href="#" class="contact-link">
-                            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <a href="#" class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                             </svg>
                             LinkedIn
@@ -38,127 +38,60 @@
     </header>
 
     <!-- Academic Works Section -->
-    <section class="section">
-        <div class="container">
-            <h2>Academic Works</h2>
-            
-            <div class="card">
-                <button class="card-header" onclick="toggleCard(this)">
-                    <div>
-                        <div class="card-title">Digital Pedagogies in Language Learning</div>
-                        <div class="card-subtitle">Published in Modern Language Teaching Quarterly • 2024</div>
-                    </div>
-                    <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </button>
-                <div class="card-content">
-                    This research explores the integration of digital technologies in second language acquisition, focusing on interactive platforms and their impact on student engagement and learning outcomes. The study involved 200+ students across multiple institutions and demonstrated significant improvements in retention and speaking confidence.
-                </div>
-            </div>
+    <section class="py-12">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-light text-gray-900 mb-8">Academic Works</h2>
+            <div class="space-y-4">
+                
+                <a href="digital-pedagogies.html" class="block bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-lg text-gray-900 mb-1">Digital Pedagogies in Language Learning</h3>
+                    <p class="text-sm text-gray-600 mb-2">Published in Modern Language Teaching Quarterly • 2024</p>
+                    <p class="text-gray-700">This research explores the integration of digital technologies in second language acquisition, focusing on interactive platforms...</p>
+                </a>
 
-            <div class="card">
-                <button class="card-header" onclick="toggleCard(this)">
-                    <div>
-                        <div class="card-title">Multilingual Identity Formation in Academic Contexts</div>
-                        <div class="card-subtitle">Presented at International Conference on Applied Linguistics • 2023</div>
-                    </div>
-                    <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </button>
-                <div class="card-content">
-                    An ethnographic study examining how multilingual students navigate identity construction in academic environments. Through interviews and observations, this work reveals the complex negotiations between heritage languages, academic English, and personal expression in higher education settings.
-                </div>
-            </div>
+                <a href="multilingual-identity.html" class="block bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-lg text-gray-900 mb-1">Multilingual Identity Formation in Academic Contexts</h3>
+                    <p class="text-sm text-gray-600 mb-2">Presented at International Conference on Applied Linguistics • 2023</p>
+                    <p class="text-gray-700">An ethnographic study examining how multilingual students navigate identity construction in academic environments...</p>
+                </a>
 
-            <div class="card">
-                <button class="card-header" onclick="toggleCard(this)">
-                    <div>
-                        <div class="card-title">Assessment Practices in ESL Writing</div>
-                        <div class="card-subtitle">Co-authored chapter in "Contemporary Approaches to Language Assessment" • 2023</div>
-                    </div>
-                    <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </button>
-                <div class="card-content">
-                    This chapter critically examines current assessment methodologies in ESL writing instruction, proposing a framework that balances standardized metrics with authentic assessment practices that honor diverse linguistic backgrounds and writing traditions.
-                </div>
+                <a href="assessment-practices.html" class="block bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-lg text-gray-900 mb-1">Assessment Practices in ESL Writing</h3>
+                    <p class="text-sm text-gray-600 mb-2">Co-authored chapter in "Contemporary Approaches to Language Assessment" • 2023</p>
+                    <p class="text-gray-700">This chapter critically examines current assessment methodologies in ESL writing instruction...</p>
+                </a>
+
             </div>
         </div>
     </section>
 
     <!-- Essays Section -->
-    <section class="section essays-section">
-        <div class="container">
-            <h2>Essays</h2>
-            
-            <div class="card">
-                <button class="card-header" onclick="toggleCard(this)">
-                    <div>
-                        <div class="card-title">On the Joy of Teaching Irregular Verbs</div>
-                        <div class="card-subtitle">A reflection on finding beauty in language's quirks</div>
-                    </div>
-                    <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </button>
-                <div class="card-content">
-                    There's something magical about the moment when a student finally grasps why we say "went" instead of "goed." It's not just about memorizing exceptions—it's about understanding that language is alive, shaped by centuries of human creativity and accident. These irregularities aren't bugs in the system; they're features that tell the story of how we've lived and spoken together across time.
-                </div>
-            </div>
+    <section class="py-12 pb-24">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-light text-gray-900 mb-8">Essays</h2>
+            <div class="space-y-4">
+                
+                <a href="irregular-verbs.html" class="block bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-lg text-gray-900 mb-1">On the Joy of Teaching Irregular Verbs</h3>
+                    <p class="text-sm text-gray-600 mb-2">A reflection on finding beauty in language's quirks</p>
+                    <p class="text-gray-700">There's something magical about the moment when a student finally grasps why we say "went" instead of "goed"...</p>
+                </a>
 
-            <div class="card">
-                <button class="card-header" onclick="toggleCard(this)">
-                    <div>
-                        <div class="card-title">The Untranslatable Words We Need</div>
-                        <div class="card-subtitle">Exploring concepts that exist in one language but not another</div>
-                    </div>
-                    <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </button>
-                <div class="card-content">
-                    Every language has words that resist translation—concepts so culturally specific that they can only be approximated in other tongues. The German "Fernweh," the Portuguese "saudade," the Japanese "komorebi." These words don't just describe experiences; they create them. They give us permission to feel things we might not have noticed otherwise, to pay attention to nuances of human experience that might slip by unnamed.
-                </div>
-            </div>
+                <a href="untranslatable-words.html" class="block bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-lg text-gray-900 mb-1">The Untranslatable Words We Need</h3>
+                    <p class="text-sm text-gray-600 mb-2">Exploring concepts that exist in one language but not another</p>
+                    <p class="text-gray-700">Every language has words that resist translation—concepts so culturally specific that they can only be approximated...</p>
+                </a>
 
-            <div class="card">
-                <button class="card-header" onclick="toggleCard(this)">
-                    <div>
-                        <div class="card-title">Code-Switching as Code-Living</div>
-                        <div class="card-subtitle">Why multilingual speakers aren't just translating—they're being</div>
-                    </div>
-                    <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </button>
-                <div class="card-content">
-                    When my students switch between languages mid-sentence, they're not making mistakes. They're making choices. Each language carries its own emotional register, its own way of being in the world. Code-switching isn't just about communication—it's about inhabiting different versions of yourself, each authentic, each necessary.
-                </div>
+                <a href="code-switching.html" class="block bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-lg text-gray-900 mb-1">Code-Switching as Code-Living</h3>
+                    <p class="text-sm text-gray-600 mb-2">Why multilingual speakers aren't just translating—they're being</p>
+                    <p class="text-gray-700">When my students switch between languages mid-sentence, they're not making mistakes. They're making choices...</p>
+                </a>
+
             </div>
         </div>
     </section>
 
-    <script>
-        function toggleCard(button) {
-            const content = button.nextElementSibling;
-            const chevron = button.querySelector('.chevron');
-            
-            // Close all other cards
-            document.querySelectorAll('.card-content').forEach(otherContent => {
-                if (otherContent !== content) {
-                    otherContent.classList.remove('expanded');
-                    const otherChevron = otherContent.previousElementSibling.querySelector('.chevron');
-                    otherChevron.classList.remove('rotated');
-                }
-            });
-            
-            // Toggle current card
-            content.classList.toggle('expanded');
-            chevron.classList.toggle('rotated');
-        }
-    </script>
 </body>
 </html>
