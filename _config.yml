@@ -1,4 +1,10 @@
 title: "Abdulkadir’s Essays"
 description: "Linguistic researcher and language teacher"
 theme: minima
+collections:
+  academic:
+    output: true
+  essays:
+    output: true
+
 # optional: plugins: [jekyll-feed]
