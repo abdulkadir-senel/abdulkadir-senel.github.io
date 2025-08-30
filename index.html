@@ -90,6 +90,27 @@
       </div>
     </header>
 
+    <!-- Academic Works -->
+<h2>Academic Works</h2>
+<ul>
+  {% for paper in site.academic %}
+    <li>
+      <a href="{{ paper.url }}">{{ paper.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- Essays -->
+<h2>Essays</h2>
+<ul>
+  {% for essay in site.essays %}
+    <li>
+      <a href="{{ essay.url }}">{{ essay.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
       
  <!-- Academic Works Section jekyeel -->
     <section class="py-12">
