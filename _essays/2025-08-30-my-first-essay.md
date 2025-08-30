@@ -6,4 +6,4 @@ layout: post
 
 This is my essay content. I can also add an image like this:
 
-![Irregular verbs chart](/images/irregular-verbs.png)
+![Irregular verbs chart](/images/profile.jpg)
