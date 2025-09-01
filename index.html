@@ -90,6 +90,44 @@
       </div>
     </header>
 
+
+<section>
+  <h2>Academic Works</h2>
+  {% if site.academic.size > 0 %}
+    <ul>
+    {% for work in site.academic %}
+      <li>
+        <a href="{{ work.url | relative_url }}">{{ work.title }}</a>
+        {% if work.date %}
+          <br><small style="color: #666;">{{ work.date | date: "%B %d, %Y" }}</small>
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% else %}
+    <p style="color: #666; font-style: italic;">No academic works available yet.</p>
+  {% endif %}
+</section>
+
+<section>
+  <h2>Essays</h2>
+  {% if site.essays.size > 0 %}
+    <ul>
+    {% for essay in site.essays %}
+      <li>
+        <a href="{{ essay.url | relative_url }}">{{ essay.title }}</a>
+        {% if essay.date %}
+          <br><small style="color: #666;">{{ essay.date | date: "%B %d, %Y" }}</small>
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% else %}
+    <p style="color: #666; font-style: italic;">No essays available yet.</p>
+  {% endif %}
+</section>
+
+    
     <!-- Academic Works -->
 <h2>Academic Works</h2>
 <ul>
