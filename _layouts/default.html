@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      line-height: 1.6; 
+      max-width: 800px; 
+      margin: 0 auto; 
+      padding: 20px; 
+    }
+    header { 
+      text-align: center; 
+      margin-bottom: 40px; 
+      padding: 20px 0; 
+      border-bottom: 1px solid #eee; 
+    }
+    header h1 { margin: 0; }
+    header h1 a { 
+      color: #333; 
+      text-decoration: none; 
+    }
+    header p { 
+      color: #666; 
+      margin: 10px 0 0 0; 
+    }
+    ul { list-style-type: none; padding: 0; }
+    li { 
+      margin: 10px 0; 
+      padding: 10px; 
+      border-left: 3px solid #007acc; 
+      background: #f9f9f9; 
+    }
+    a { color: #007acc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h2 { 
+      color: #333; 
+      border-bottom: 2px solid #007acc; 
+      padding-bottom: 5px; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="/">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+  
+  <footer style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #666;">
+    <p>&copy; 2025 {{ site.title }}. All rights reserved.</p>
+  </footer>
+</body>
+</html>
