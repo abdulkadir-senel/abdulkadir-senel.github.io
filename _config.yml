@@ -2,9 +2,24 @@ title: "Abdulkadir’s Essays"
 description: "Linguistic researcher and language teacher"
 theme: minima
 collections:
-  academic:
-    output: true
   essays:
     output: true
-permalink: /:collection/:name/
+    permalink: /essays/:name/
+  academic:
+    output: true
+    permalink: /academic/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "academic"
+    values:
+      layout: "post"
+
+
 # optional: plugins: [jekyll-feed]
