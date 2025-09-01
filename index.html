@@ -126,7 +126,28 @@
     <p style="color: #666; font-style: italic;">No essays available yet.</p>
   {% endif %}
 </section>
-
+<!-- DEBUG SECTION - Remove this after fixing -->
+<section style="background: #f0f0f0; padding: 20px; margin: 20px 0;">
+  <h3>DEBUG INFO</h3>
+  <p><strong>Site URL:</strong> {{ site.url }}</p>
+  <p><strong>Base URL:</strong> {{ site.baseurl }}</p>
+  <p><strong>Essays count:</strong> {{ site.essays.size }}</p>
+  <p><strong>Academic count:</strong> {{ site.academic.size }}</p>
+  
+  <h4>All Essays:</h4>
+  <ul>
+  {% for essay in site.essays %}
+    <li>{{ essay.title }} - URL: {{ essay.url }}</li>
+  {% endfor %}
+  </ul>
+  
+  <h4>All Academic:</h4>
+  <ul>
+  {% for work in site.academic %}
+    <li>{{ work.title }} - URL: {{ work.url }}</li>
+  {% endfor %}
+  </ul>
+</section>
     
     <!-- Academic Works -->
 <h2>Academic Works</h2>
