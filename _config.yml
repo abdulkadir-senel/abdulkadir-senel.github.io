@@ -3,9 +3,9 @@
 # Site settings
 title: "Abdulkadir Şenel"
 description: "Linguistic researcher and language teacher"
-baseurl: ""
-url: ""
 
+baseurl: "/abdul"  # Replace with your actual repository name
+url: "https://abdulkadir-senel.github.io/abdul/"  # Replace with your actual username
 # Collections
 collections:
   essays:
