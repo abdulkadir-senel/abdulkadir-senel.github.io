@@ -1,6 +1,12 @@
-title: "Abdulkadir’s Essays"
+
+
+# Site settings
+title: "Abdulkadir Şenel"
 description: "Linguistic researcher and language teacher"
-theme: minima
+baseurl: ""
+url: ""
+
+# Collections
 collections:
   essays:
     output: true
@@ -9,6 +15,7 @@ collections:
     output: true
     permalink: /academic/:name/
 
+# Default settings for collections
 defaults:
   - scope:
       path: ""
@@ -21,5 +28,13 @@ defaults:
     values:
       layout: "post"
 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 
 # optional: plugins: [jekyll-feed]
