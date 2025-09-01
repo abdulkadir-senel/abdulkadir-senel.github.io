@@ -6,5 +6,6 @@ collections:
     output: true
   essays:
     output: true
+    permalink: /essays/:path/
 
 # optional: plugins: [jekyll-feed]
