@@ -91,161 +91,19 @@
     </header>
 
 
-<section>
-  <h2>Academic Works</h2>
-  {% if site.academic.size > 0 %}
-    <ul>
-    {% for work in site.academic %}
-      <li>
-        <a href="{{ work.url | relative_url }}">{{ work.title }}</a>
-        {% if work.date %}
-          <br><small style="color: #666;">{{ work.date | date: "%B %d, %Y" }}</small>
-        {% endif %}
-      </li>
-    {% endfor %}
-    </ul>
-  {% else %}
-    <p style="color: #666; font-style: italic;">No academic works available yet.</p>
-  {% endif %}
-</section>
-
-<section>
-  <h2>Essays</h2>
-  {% if site.essays.size > 0 %}
-    <ul>
-    {% for essay in site.essays %}
-      <li>
-        <a href="{{ essay.url | relative_url }}">{{ essay.title }}</a>
-        {% if essay.date %}
-          <br><small style="color: #666;">{{ essay.date | date: "%B %d, %Y" }}</small>
-        {% endif %}
-      </li>
-    {% endfor %}
-    </ul>
-  {% else %}
-    <p style="color: #666; font-style: italic;">No essays available yet.</p>
-  {% endif %}
-</section>
-<!-- DEBUG SECTION - Remove this after fixing -->
-<section style="background: #f0f0f0; padding: 20px; margin: 20px 0;">
-  <h3>DEBUG INFO</h3>
-  <p><strong>Site URL:</strong> {{ site.url }}</p>
-  <p><strong>Base URL:</strong> {{ site.baseurl }}</p>
-  <p><strong>Essays count:</strong> {{ site.essays.size }}</p>
-  <p><strong>Academic count:</strong> {{ site.academic.size }}</p>
-  
-  <h4>All Essays:</h4>
-  <ul>
-  {% for essay in site.essays %}
-    <li>{{ essay.title }} - URL: {{ essay.url }}</li>
-  {% endfor %}
-  </ul>
-  
-  <h4>All Academic:</h4>
-  <ul>
-  {% for work in site.academic %}
-    <li>{{ work.title }} - URL: {{ work.url }}</li>
-  {% endfor %}
-  </ul>
-</section>
-    
-    <!-- Academic Works -->
-<h2>Academic Works</h2>
+    <h2>Academic Works</h2>
 <ul>
-  {% for paper in site.academic %}
-    <li>
-      <a href="{{ paper.url }}">{{ paper.title }}</a>
-    </li>
-  {% endfor %}
+{% for post in site.categories.academic %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
 </ul>
 
-<!-- Essays -->
 <h2>Essays</h2>
 <ul>
-  {% for essay in site.essays %}
-    <li>
-      <a href="{{ essay.url }}">{{ essay.title }}</a>
-    </li>
-  {% endfor %}
+{% for post in site.categories.essay %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
 </ul>
 
-
-      
- <!-- Academic Works Section jekyeel -->
-    <section class="py-12">
-      <div class="max-w-4xl mx-auto px-6">
-        <h2 class="text-2xl font-light text-gray-900 mb-8">Academic Works jk</h2>
-       <div class="space-y-4">
-  {% assign academic = site.posts | where_exp: "p", "p.categories contains 'academic'" %}
-  {% for post in academic %}
-    <article>
-      <a href="{{ post.url | relative_url }}" class="text-blue-600 underline hover:text-blue-800">
-        {{ post.title }}
-      </a>
-      <div class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</div>
-    </article>
-  {% endfor %}
-</div>
-
-      </div>
-    </section>
-
-      <!-- Essays Section jekyleel -->
-    <section class="py-12 pb-24">
-      <div class="max-w-4xl mx-auto px-6">
-        <h2 class="text-2xl font-light text-gray-900 mb-8">Essays jk</h2>
-
-        <div>
-  {% for post in site.posts %}
-    {% unless post.categories contains 'academic' %}
-      <article class="mb-4">
-        <a href="{{ post.url | relative_url }}" class="text-blue-600 underline hover:text-blue-800">
-          {{ post.title }}
-        </a>
-        <div class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</div>
-      </article>
-    {% endunless %}
-  {% endfor %}
-</div>
-
-      </div>
-    </section>
-
-        
-    
-    <!-- Academic Works Section -->
-    <section class="py-12">
-      <div class="max-w-4xl mx-auto px-6">
-        <h2 class="text-2xl font-light text-gray-900 mb-8">Academic Works</h2>
-        <div class="space-y-4">
-          <a
-            href="The-Overrated-Promise of-Internet-Technologies.html"
-            class=""
-          >
-            <h3 class="text-blue-600 underline hover:text-blue-800">
-              On the Joy of Teaching Irregular Verbs
-            </h3>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Essays Section -->
-    <section class="py-12 pb-24">
-      <div class="max-w-4xl mx-auto px-6">
-        <h2 class="text-2xl font-light text-gray-900 mb-8">Essays</h2>
-
-        <div class="">
-          <a
-            href="The-Overrated-Promise of-Internet-Technologies.html"
-            class=""
-          >
-            <h3 class="text-blue-600 underline hover:text-blue-800">
-              On the Joy of Teaching Irregular Verbs
-            </h3>
-          </a>
-        </div>
-      </div>
-    </section>
   </body>
 </html>
