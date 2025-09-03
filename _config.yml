@@ -1,11 +1,6 @@
 # Site settings
 title: "Abdulkadir Şenel"
 description: "Linguistic researcher and language teacher"
-baseurl: "/abdul"  # Replace with your actual repository name
-url: "https://abdulkadir-senel.github.io/abdul/"  # Replace with your actual username# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:year/:month/:day/:title/
 
 # Plugins
 plugins:
