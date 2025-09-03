@@ -1,4 +1,4 @@
-yaml---
+---
 title: "On the Joy of Teaching Irregular Verbs"
 date: 2025-08-30
 categories: [essay]
