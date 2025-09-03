@@ -1,40 +1,15 @@
-
-
 # Site settings
 title: "Abdulkadir Şenel"
 description: "Linguistic researcher and language teacher"
-
 baseurl: "/abdul"  # Replace with your actual repository name
-url: "https://abdulkadir-senel.github.io/abdul/"  # Replace with your actual username
-# Collections
-collections:
-  essays:
-    output: true
-    permalink: /essays/:name/
-  academic:
-    output: true
-    permalink: /academic/:name/
-
-# Default settings for collections
-defaults:
-  - scope:
-      path: ""
-      type: "essays"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "academic"
-    values:
-      layout: "post"
-
-# Build settings
+url: "https://abdulkadir-senel.github.io/abdul/"  # Replace with your actual username# Build settings
 markdown: kramdown
 highlighter: rouge
+permalink: /:year/:month/:day/:title/
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# optional: plugins: [jekyll-feed]
+
