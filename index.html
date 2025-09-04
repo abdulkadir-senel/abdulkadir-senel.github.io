@@ -90,36 +90,30 @@
       </div>
     </header>
 
-    <!-- Academic -->
-  <section class="mb-10">
-    <h2 class="text-lg font-light border-b border-gray-300 pb-1 mb-4">Academic</h2>
-    <ul class="space-y-2">
-      {% for post in site.posts %}
-        {% if post.categories contains "academic" %}
-          <li>
-            <a href="{{ post.url }}" class="text-gray-800 hover:text-blue-600">
-              {{ post.title }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
+    
+<div class="space-y-4">
+  {% assign academic = site.posts | where_exp: "p", "p.categories contains 'academic'" %}
+  {% for post in academic %}
+    <article>
+      <a href="{{ post.url | relative_url }}" class="text-blue-600 underline hover:text-blue-800">
+        {{ post.title }}
+      </a>
+      <div class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</div>
+    </article>
+  {% endfor %}
+</div>
 
-  <!-- Essays -->
-  <section>
-    <h2 class="text-lg font-light border-b border-gray-300 pb-1 mb-4">Essays</h2>
-    <ul class="space-y-2">
-      {% for post in site.posts %}
-        {% if post.categories contains "essays" %}
-          <li>
-            <a href="{{ post.url }}" class="text-gray-800 hover:text-blue-600">
-              {{ post.title }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
+ <div>
+  {% for post in site.posts %}
+    {% unless post.categories contains 'academic' %}
+      <article class="mb-4">
+        <a href="{{ post.url | relative_url }}" class="text-blue-600 underline hover:text-blue-800">
+          {{ post.title }}
+        </a>
+        <div class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</div>
+      </article>
+    {% endunless %}
+  {% endfor %}
+</div>
 
 </html>
