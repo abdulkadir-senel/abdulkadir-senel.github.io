@@ -3,3 +3,5 @@ title: "Abdulkadir’s Essays"
 description: "a"
 theme: minima
 
+minima:
+  show_excerpts: true
