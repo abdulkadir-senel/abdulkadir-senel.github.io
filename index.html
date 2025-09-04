@@ -90,19 +90,24 @@
       </div>
     </header>
 
-
-    <h2>Academic Works</h2>
+<!-- Academic Works -->
+<h2>Academic Works</h2>
 <ul>
-{% for post in site.categories.academic %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+  {% for paper in site.academic %}
+    <li>
+      <a href="{{ paper.url }}">{{ paper.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
 
+<!-- Essays -->
 <h2>Essays</h2>
 <ul>
-{% for post in site.categories.essay %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+  {% for essay in site.essays %}
+    <li>
+      <a href="{{ essay.url }}">{{ essay.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
 
   </body>
