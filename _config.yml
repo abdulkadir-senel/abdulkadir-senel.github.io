@@ -1,7 +1,7 @@
 # _config.yml
 title: "Abdulkadir’s Essays"
 description: "Notes, drafts, and finished essays"
-theme: minima
+#theme: minima
 # Optional niceties:
-minima:
-  show_excerpts: true
+#minima:
+ # show_excerpts: true
