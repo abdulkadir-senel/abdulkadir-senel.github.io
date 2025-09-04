@@ -90,25 +90,31 @@
       </div>
     </header>
 
-<!-- Academic Works -->
-<h2>Academic Works</h2>
-<ul>
-  {% for paper in site.academic %}
-    <li>
-      <a href="{{ paper.url }}">{{ paper.title }}</a>
-    </li>
+<div class="space-y-4">
+  {% assign academic = site.posts | where_exp: "p", "p.categories contains 'academic'" %}
+  {% for post in academic %}
+    <article>
+      <a href="{{ post.url | relative_url }}" class="text-blue-600 underline hover:text-blue-800">
+        {{ post.title }}
+      </a>
+      <div class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</div>
+    </article>
   {% endfor %}
-</ul>
+</div>
 
-<!-- Essays -->
-<h2>Essays</h2>
-<ul>
-  {% for essay in site.essays %}
-    <li>
-      <a href="{{ essay.url }}">{{ essay.title }}</a>
-    </li>
+
+<div>
+  {% for post in site.posts %}
+    {% unless post.categories contains 'academic' %}
+      <article class="mb-4">
+        <a href="{{ post.url | relative_url }}" class="text-blue-600 underline hover:text-blue-800">
+          {{ post.title }}
+        </a>
+        <div class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</div>
+      </article>
+    {% endunless %}
   {% endfor %}
-</ul>
+</div>
 
   </body>
 </html>
