@@ -1,16 +1,7 @@
-# Site settings
-title: "Abdulkadir Şenel"
-description: "Linguistic researcher and language teacher"
-collections:
-  academic:
-    output: true
-  essays:
-    output: true
+# _config.yml
+title: "Abdulkadir’s Essays"
+description: "Notes, drafts, and finished essays"
 theme: minima
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-
+# Optional niceties:
+minima:
+  show_excerpts: true
