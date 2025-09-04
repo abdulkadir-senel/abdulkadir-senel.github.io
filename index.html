@@ -89,32 +89,37 @@
         </div>
       </div>
     </header>
-
-<div class="space-y-4">
-  {% assign academic = site.posts | where_exp: "p", "p.categories contains 'academic'" %}
-  {% for post in academic %}
-    <article>
-      <a href="{{ post.url | relative_url }}" class="text-blue-600 underline hover:text-blue-800">
-        {{ post.title }}
-      </a>
-      <div class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</div>
-    </article>
-  {% endfor %}
-</div>
-
-
-<div>
-  {% for post in site.posts %}
-    {% unless post.categories contains 'academic' %}
-      <article class="mb-4">
-        <a href="{{ post.url | relative_url }}" class="text-blue-600 underline hover:text-blue-800">
+<!-- Academic Works -->
+<section class="max-w-4xl mx-auto px-6 py-8">
+  <h2 class="text-2xl font-light text-gray-900 mb-6">Academic Works</h2>
+  <div class="space-y-4">
+    {% assign academic = site.posts | where_exp: "p", "p.categories contains 'academic'" %}
+    {% for post in academic %}
+      <article class="p-4 border rounded-xl shadow-sm hover:shadow-md transition">
+        <a href="{{ post.url | relative_url }}" class="text-xl font-medium text-blue-600 hover:text-blue-800">
           {{ post.title }}
         </a>
-        <div class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</div>
+        <div class="text-sm text-gray-500 mt-1">{{ post.date | date: "%Y-%m-%d" }}</div>
       </article>
-    {% endunless %}
-  {% endfor %}
-</div>
+    {% endfor %}
+  </div>
+</section>
 
-  </body>
+<!-- Essays -->
+<section class="max-w-4xl mx-auto px-6 py-8">
+  <h2 class="text-2xl font-light text-gray-900 mb-6">Essays</h2>
+  <div class="space-y-4">
+    {% for post in site.posts %}
+      {% unless post.categories contains 'academic' %}
+        <article class="p-4 border rounded-xl shadow-sm hover:shadow-md transition">
+          <a href="{{ post.url | relative_url }}" class="text-xl font-medium text-blue-600 hover:text-blue-800">
+            {{ post.title }}
+          </a>
+          <div class="text-sm text-gray-500 mt-1">{{ post.date | date: "%Y-%m-%d" }}</div>
+        </article>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</section>
+
 </html>
