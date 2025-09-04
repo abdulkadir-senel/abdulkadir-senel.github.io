@@ -90,7 +90,8 @@
       </div>
     </header>
 
-    
+    <section class="max-w-4xl mx-auto px-6 py-8">
+  <h2 class="text-2xl font-light text-gray-900 mb-6">Academic Works</h2>
 <div class="space-y-4">
   {% assign academic = site.posts | where_exp: "p", "p.categories contains 'academic'" %}
   {% for post in academic %}
@@ -103,6 +104,12 @@
   {% endfor %}
 </div>
 
+</section>
+
+
+
+
+    
  <div>
   {% for post in site.posts %}
     {% unless post.categories contains 'academic' %}
