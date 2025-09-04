@@ -1,5 +1,7 @@
 # _config.yml
 title: "Abdulkadir’s Essays"
+baseurl: ""   # leave empty for user/username.github.io site
+url: "https://abdulkadir-senel.github.io"
 description: "a"
 theme: minima
 
