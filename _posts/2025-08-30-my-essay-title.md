@@ -6,3 +6,4 @@ layout: post
 ---
 
 This is my very first essay post. I can add text here and even images!
+![Alt text for screen readers](/images/profile.jpg)
