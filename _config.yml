@@ -1,6 +1,12 @@
 # Site settings
 title: "Abdulkadir Şenel"
 description: "Linguistic researcher and language teacher"
+collections:
+  academic:
+    output: true
+  essays:
+    output: true
+theme: minima
 
 # Plugins
 plugins:
