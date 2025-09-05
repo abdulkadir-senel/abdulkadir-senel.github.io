@@ -94,29 +94,7 @@
 
 <section class="space-y-12">
 
-    <div id="academic">
-    <h2 class="text-xl font-semibold mb-4">Academic</h2>
-    <ul>
-      {% for post in site.categories.academic %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> · {{ post.date | date: "%b %e, %Y" }}</li>
-      {% endfor %}
-      {% if site.categories.academic == nil or site.categories.academic.size == 0 %}
-        <li>No academic posts yet.</li>
-      {% endif %}
-    </ul>
-  </div>
-  
-  <div id="essays">
-    <h2 class="text-xl font-semibold mb-4">Essays</h2>
-    <ul>
-      {% for post in site.categories.essays %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> · {{ post.date | date: "%b %e, %Y" }}</li>
-      {% endfor %}
-      {% if site.categories.essays == nil or site.categories.essays.size == 0 %}
-        <li>No essays yet.</li>
-      {% endif %}
-    </ul>
-  </div>
+   
     <footer class="max-w-3xl px-6 mx-auto space-y-12 text-xs opacity-70 py-6">
       © {{ "now" | date: "%Y" }} Abdulkadir Şenel
     </footer>
