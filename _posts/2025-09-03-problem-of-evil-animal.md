@@ -4,6 +4,7 @@ title: "Problem of Evil - animal pain"
 date: 2025-09-03
 categories: [essays]
 ---
+![Alt text for screen readers]({{ site.baseurl }}/images/animal-pain.png)
 When people discuss the problem of evil, they often bring up animal suffering. For millions of years, creatures have felt pain—dinosaurs crushed by meteorites, animals starving, microbes destroyed by the billions. Some even argue that animal suffering is especially troubling because it does not affect the divine test of humankind. If pain is meant to teach or to test humans, then why do animals suffer at all? Doesn’t that seem unnecessary, even unfair?
 
 But this argument overlooks a crucial truth: human pain and animal pain are not the same. Humans are not just another biological species. We are immensely different from even our closest relatives. No animal has ever built civilization, created art, discovered science, or shaped history the way humans have. Our existence is not just biology—it is will, meaning, and culture. Civilization itself proves that humanity cannot be reduced to mere biology.
