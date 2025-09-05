@@ -1,9 +1,4 @@
-# _config.yml
-title: "Abdulkadir’s Essays"
-baseurl: ""   # leave empty for user/username.github.io site
-url: "https://abdulkadir-senel.github.io"
-description: "a"
+title: Abdulkadir Şenel
+description: Essays and academic writing
+permalink: /:categories/:slug/
 theme: minima
-
-minima:
-  show_excerpts: true
