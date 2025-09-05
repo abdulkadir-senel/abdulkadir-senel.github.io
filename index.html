@@ -89,45 +89,34 @@
         </div>
       </div>
     </header>
----
-layout: default
----
 
-<div class="max-w-2xl mx-auto px-4 py-8">
-  <h1 class="text-center text-3xl font-light mb-8">Abdulkadir Şenel</h1>
 
-  <!-- Academic -->
-  <section class="mb-10">
-    <h2 class="text-lg font-light border-b border-gray-300 pb-1 mb-4">Academic</h2>
-    <ul class="space-y-2">
-      {% for post in site.posts %}
-        {% if post.categories contains "academic" %}
-          <li>
-            <a href="{{ post.url }}" class="text-gray-800 hover:text-blue-600">
-              {{ post.title }}
-            </a>
-          </li>
-        {% endif %}
+<section class="space-y-12">
+  <div id="essays">
+    <h2 class="text-xl font-semibold mb-4">Essays</h2>
+    <ul>
+      {% for post in site.categories.essays %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> · {{ post.date | date: "%b %e, %Y" }}</li>
       {% endfor %}
+      {% if site.categories.essays == nil or site.categories.essays.size == 0 %}
+        <li>No essays yet.</li>
+      {% endif %}
     </ul>
-  </section>
+  </div>
 
-  <!-- Essays -->
-  <section>
-    <h2 class="text-lg font-light border-b border-gray-300 pb-1 mb-4">Essays</h2>
-    <ul class="space-y-2">
-      {% for post in site.posts %}
-        {% if post.categories contains "essays" %}
-          <li>
-            <a href="{{ post.url }}" class="text-gray-800 hover:text-blue-600">
-              {{ post.title }}
-            </a>
-          </li>
-        {% endif %}
+  <div id="academic">
+    <h2 class="text-xl font-semibold mb-4">Academic</h2>
+    <ul>
+      {% for post in site.categories.academic %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> · {{ post.date | date: "%b %e, %Y" }}</li>
       {% endfor %}
+      {% if site.categories.academic == nil or site.categories.academic.size == 0 %}
+        <li>No academic posts yet.</li>
+      {% endif %}
     </ul>
-  </section>
-</div>
+  </div>
+</section>
+
 
 
 
