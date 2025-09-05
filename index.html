@@ -89,25 +89,46 @@
         </div>
       </div>
     </header>
-<!-- Academic Works -->
-<h2>Academic Works</h2>
-<ul>
-  {% for paper in site.academic %}
-    <li>
-      <a href="{{ paper.url }}">{{ paper.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+---
+layout: default
+---
 
-<!-- Essays -->
-<h2>Essays</h2>
-<ul>
-  {% for essay in site.essays %}
-    <li>
-      <a href="{{ essay.url }}">{{ essay.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="max-w-2xl mx-auto px-4 py-8">
+  <h1 class="text-center text-3xl font-light mb-8">Abdulkadir Şenel</h1>
+
+  <!-- Academic -->
+  <section class="mb-10">
+    <h2 class="text-lg font-light border-b border-gray-300 pb-1 mb-4">Academic</h2>
+    <ul class="space-y-2">
+      {% for post in site.posts %}
+        {% if post.categories contains "academic" %}
+          <li>
+            <a href="{{ post.url }}" class="text-gray-800 hover:text-blue-600">
+              {{ post.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- Essays -->
+  <section>
+    <h2 class="text-lg font-light border-b border-gray-300 pb-1 mb-4">Essays</h2>
+    <ul class="space-y-2">
+      {% for post in site.posts %}
+        {% if post.categories contains "essays" %}
+          <li>
+            <a href="{{ post.url }}" class="text-gray-800 hover:text-blue-600">
+              {{ post.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</div>
+
 
 
 </html>
