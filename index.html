@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,90 +9,52 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-gray-50 text-gray-900 font-sans antialiased">
-    <!-- Header Section -->
-    <header class="py-10">
-      <div class="max-w-3xl mx-auto px-6 text-center">
-        <div class="flex flex-col items-center gap-6">
-          <!-- Profile photo -->
-          <div class="w-32 h-32 rounded-full overflow-hidden shadow">
-            <img
-              src="images/profile.jpg"
-              alt="Abdulkadir Şenel"
-              class="w-full h-full object-cover"
-            />
-          </div>
+  <body class="bg-white text-gray-900 px-6 py-10">
 
-          <!-- Name + tagline -->
-          <div>
-            <h1 class="text-3xl font-light mb-2">Abdulkadir Şenel</h1>
-            <p class="text-gray-600">Linguistic researcher and language teacher</p>
-          </div>
-
-          <!-- Links -->
-          <div class="flex flex-col sm:flex-row gap-4">
-            <a
-              href="mailto:abdulkadirsenel@proton.me"
-              class="text-blue-600 hover:text-blue-800 transition"
-              >abdulkadirsenel@proton.me</a
-            >
-            <a
-              href="#"
-              class="text-blue-600 hover:text-blue-800 transition"
-              >LinkedIn</a
-            >
-          </div>
-        </div>
-      </div>
+    <!-- Header -->
+    <header class="mb-12">
+      <img src="images/profile.jpg" alt="Profile photo"
+        class="w-32 h-32 rounded-full mb-4" />
+      <h1 class="text-3xl font-light mb-1">Abdulkadir Şenel</h1>
+      <p class="text-gray-600 mb-4">Linguistic researcher and language teacher</p>
+      <p class="text-blue-600">abdulkadirsenel@proton.me</p>
     </header>
 
-    <!-- Content Section -->
-    <main class="max-w-2xl mx-auto px-6 space-y-12 pb-16">
-      <section id="academic">
-        <h2 class="text-2xl font-semibold mb-4 text-center">Academic</h2>
-        <ul class="space-y-2 text-center">
-          {% for post in site.categories.academic %}
+    <!-- Academic Section -->
+    <section class="mb-12">
+      <h2 class="text-xl font-semibold mb-4">Academic</h2>
+      <ul class="space-y-2">
+        {% for post in site.categories.academic %}
           <li>
-            <a
-              href="{{ post.url | relative_url }}"
-              class="hover:underline"
-              >{{ post.title }}</a
-            >
-            <span class="text-sm opacity-60">
-              · {{ post.date | date: "%b %e, %Y" }}
-            </span>
+            <a href="{{ post.url | relative_url }}" class="text-blue-600 hover:underline">
+              {{ post.title }}
+            </a>
+            <span class="text-gray-500 text-sm">· {{ post.date | date: "%b %e, %Y" }}</span>
           </li>
-          {% endfor %}
-          {% if site.categories.academic == nil or site.categories.academic.size == 0 %}
-          <li class="opacity-60">No academic posts yet.</li>
-          {% endif %}
-        </ul>
-      </section>
+        {% endfor %}
+        {% if site.categories.academic == nil or site.categories.academic.size == 0 %}
+          <li class="text-gray-500">No academic posts yet.</li>
+        {% endif %}
+      </ul>
+    </section>
 
-      <section id="essays">
-        <h2 class="text-2xl font-semibold mb-4 text-center">Essays</h2>
-        <ul class="space-y-2 text-center">
-          {% for post in site.categories.essays %}
+    <!-- Essays Section -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Essays</h2>
+      <ul class="space-y-2">
+        {% for post in site.categories.essays %}
           <li>
-            <a
-              href="{{ post.url | relative_url }}"
-              class="hover:underline"
-              >{{ post.title }}</a
-            >
-            <span class="text-sm opacity-60">
-              · {{ post.date | date: "%b %e, %Y" }}
-            </span>
+            <a href="{{ post.url | relative_url }}" class="text-blue-600 hover:underline">
+              {{ post.title }}
+            </a>
+            <span class="text-gray-500 text-sm">· {{ post.date | date: "%b %e, %Y" }}</span>
           </li>
-          {% endfor %}
-          {% if site.categories.essays == nil or site.categories.essays.size == 0 %}
-          <li class="opacity-60">No essays yet.</li>
-          {% endif %}
-        </ul>
-      </section>
-    </main>
+        {% endfor %}
+        {% if site.categories.essays == nil or site.categories.essays.size == 0 %}
+          <li class="text-gray-500">No essays yet.</li>
+        {% endif %}
+      </ul>
+    </section>
 
-    <footer class="text-center text-xs opacity-70 py-6">
-      © {{ "now" | date: "%Y" }} Abdulkadir Şenel
-    </footer>
   </body>
 </html>
