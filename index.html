@@ -90,7 +90,10 @@
       </div>
     </header>
 
- <div id="academic">
+
+<section class="space-y-12 flex flex-col items-center justify-center min-h-screen space-y-12 text-center">
+
+    <div id="academic">
     <h2 class="text-xl font-semibold mb-4">Academic</h2>
     <ul>
       {% for post in site.categories.academic %}
@@ -101,8 +104,7 @@
       {% endif %}
     </ul>
   </div>
-</section>
-<section class="space-y-12">
+  
   <div id="essays">
     <h2 class="text-xl font-semibold mb-4">Essays</h2>
     <ul>
@@ -115,17 +117,7 @@
     </ul>
   </div>
 
-  <div id="academic">
-    <h2 class="text-xl font-semibold mb-4">Academic</h2>
-    <ul>
-      {% for post in site.categories.academic %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> · {{ post.date | date: "%b %e, %Y" }}</li>
-      {% endfor %}
-      {% if site.categories.academic == nil or site.categories.academic.size == 0 %}
-        <li>No academic posts yet.</li>
-      {% endif %}
-    </ul>
-  </div>
+
 </section>
 
 
