@@ -4,7 +4,7 @@ title: "Problem of Evil - animal pain"
 date: 2025-09-03
 categories: [essays]
 ---
-![Alt text for screen readers]({{ site.baseurl }}/images/animal-pain.jpg)
+![Alt text for screen readers]({{ site.baseurl }}/images/animalpain.jpg)
 ![Alt text for screen readers]({{ site.baseurl }}/images/profile.jpg)
 ![Alt text for screen readers]({{ site.baseurl }}/images/animal-pain.jpg)
 
