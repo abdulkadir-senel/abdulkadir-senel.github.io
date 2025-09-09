@@ -5,9 +5,6 @@ date: 2025-09-03
 categories: [essays]
 ---
 ![Alt text for screen readers]({{ site.baseurl }}/images/animalpain.jpg)
-![Alt text for screen readers]({{ site.baseurl }}/images/profile.jpg)
-![Alt text for screen readers]({{ site.baseurl }}/images/animal-pain.jpg)
-
 
 When people discuss the problem of evil, they often bring up animal suffering. For millions of years, creatures have felt pain—dinosaurs crushed by meteorites, animals starving, microbes destroyed by the billions. Some even argue that animal suffering is especially troubling because it does not affect the divine test of humankind. If pain is meant to teach or to test humans, then why do animals suffer at all? Doesn’t that seem unnecessary, even unfair?
 
