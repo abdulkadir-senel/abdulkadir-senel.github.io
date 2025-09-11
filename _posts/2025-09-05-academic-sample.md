@@ -6,10 +6,11 @@ categories: [academic]
 ---
 **Cross-linguistic influence of heritage language: A Literature Review**
 
-Abdulkadir Şenel - Gaziantep University
+Abdulkadir Şenel - Gaziantep University             
 
 **ABSTRACT**
-There are a significant number of studies about the maintenance of heritage language in literature. Increased awareness of the maintenance of heritage language increased its users. A large number of heritage language users have called for research about the role of heritage language in the acquisition of additional languages. Alongside this, cross-linguistic influence has been one of the main topics of the linguistics field from the beginning of the field. This paper looked at literature to find out what studies say about the cross-linguistic influence of heritage language. However, there is not a significant number of studies directly related to cross-linguistic influence of heritage language. Nevertheless, studies about cross-linguistic influence in L3 acquisition gave us valuable insight about possibilities of heritage language transfer. Recognizing the cross-linguistic influence of heritage language can give us more understanding of language transfer and add one more dimension for heritage language maintenance. It is necessary to know what is happening in the field of linguistics related to cross-linguistic influence of heritage language in order to make valuable new research.
+
+There are a significant number of studies about the maintenance of heritage language in literature. Increased awareness of the maintenance of heritage language increased its users. A large number of heritage language users have called for research about the role of heritage language in the acquisition of additional languages. Alongside this, cross-linguistic influence has been one of the main topics of the linguistics field from the beginning of the field. This paper looked at literature to find out what studies say about the cross-linguistic influence of heritage language. However, there is not a significant number of studies directly related to cross-linguistic influence of heritage language. Nevertheless, studies about cross-linguistic influence in L3 acquisition gave us valuable insight about possibilities of heritage language transfer. Recognizing the cross-linguistic influence of heritage language can give us more understanding of language transfer and add one more dimension for heritage language maintenance. It is necessary to know what is happening in the field of linguistics related to cross-linguistic influence of heritage language in order to make valuable new research.       
 
 **Keywords**:
 heritage language, cross-linguistic influence, language transfer, language proficiency
