@@ -4,7 +4,7 @@ title: "future take, internet will perish."
 date: 2025-03-07
 categories: [essays]
 ---
-![Alt text for screen readers]({{ site.baseurl }}/images/2025-03-07-future-take-internet-will-perish)
+![Alt text for screen readers]({{ site.baseurl }}/images/2025-03-07-future-take-internet-will-perish.jpg)
 
 
 It is not that bold of a take because the internet is easily controllable. Unlike books, which can be distributed even under heavy restrictions, the internet depends on physical infrastructure. If a government cuts the cables or disables satellites, access can be completely shut down. Books, on the other hand, are widely distributed, and there is no single point of failure. The internet relies on data centers and their connections to users, making it vulnerable. North Korea has successfully restricted internet access, but do you think they have been equally successful in restricting books? I compare books with the internet because both are major breakthroughs in the distribution of information.
