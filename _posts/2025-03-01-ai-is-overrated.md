@@ -5,6 +5,9 @@ date: 2025-03-01
 categories: [essays]
 ---
 ![Alt text for screen readers]({{ site.baseurl }}/images/2025-03-01-ai-is-overrated.jpg)
+
+
+
 At the internet, bookstores, café shops, and the dinner table — what is the common thing among these? These places can include something about AI. There are a lot of books about AI. People write books and articles or read about AI in cafés. Even family conversations at the dinner table can be about AI. People say AI is the start of a new age, a new historical moment. They say AI will rewrite history. They claim AI is the thing that changes everything.
 But what is AI? Is it really such an extraordinary and powerful thing that can fulfill these promises? At least, does it have the potential to do so?
 Artificial intelligence is not intelligence at all. It is just a word combinator. It puts words in order according to probability. The same goes for AI-generated images; they color pixels according to probability. It does not understand or learn anything. It just places words in order accordingly. For example, if you type “hello” into an AI chatbot, it analyzes its dataset and responds with the best possible option: “Hey, Abdulkadir, how’s it going?” It does not create anything itself. It just looks at its dataset and finds where “hello” appears, then checks what usually comes after it — maybe “Hello, Elon, how are you?” — and gives you something similar. That’s why AI requires an enormous amount of power to process every chat.
