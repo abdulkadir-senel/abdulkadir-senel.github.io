@@ -6,77 +6,132 @@ categories: [essays]
 ---
 ![Alt text for screen readers]({{ site.baseurl }}/images/2025-02-17-words-are-not-arbitrary.jpg)
 
-
-
 February 23, 2025 Saussure’s ideas were criticizing the contemporary philosophy of language ideas of his time. In the early 20th century, the philosophy of language was about nomenclaturism. Language was just giving names to objects. Saussure was criticizing these ideas because they were too simple. Saussure was thinking that language and thoughts are more deeply connected. For this reason, he says that words are meaningless outside of language. He says that words are meaningful in relations with other words. He was saying that language plays a crucial role while understanding the world (Chen, 2024). His ideas could have influenced works and studies of linguistic determinism and Whorfian ridiculous ideas.
+
 February 23, 2025 First, I was trying hard to understand Saussure’s ideas because I could not get the idea of words being meaningless outside of language. Because for me, it is so intuitive to think of words as a sound image of a concept. Later I understood that Saussure was believing language and thoughts are deeply connected. After I saw that, I made sense of the language system and how words are meaningful with other words.
+
 February 23, 2025 But this doesn’t mean that I agree with his ideas. I totally disagree with arbitrariness and Whorfian-like theory. There are tons of studies proving the illegitimacy of Whorfian linguistic determinism. I am also strongly against linguistic determinism because of its political applications and implications.
+
 While everything is there for a reason, we have an innate grammar program because it is so beneficial for evolution. Being able to communicate through socializing helps us solve tons of problems way easier than it was before. There was just one language in the first place. Chomsky’s string theory of linguistics suggests that somehow all languages share the same grammatical rules (Pinker, 1994). All words are the same because they come out of the same brain. There is a specific brain region for grammar, which is shared by all human species (Pinker, 1994).
+
 Words are put into categories — things of objects and things of action. So, if you go to an unknown tribe and see a running rabbit, and the tribe calls it “oskula,” you can interpret “oskula” as running furry, running furry on the ground, animal, living thing, or a thing. But, like everyone else, you would correctly guess that “oskula” means rabbit. So, all humans share similar categories (Pinker, 1994).
+
 In English, there are tons of irregular words. Are they really irregular?
+
 Speak, spoken. Take, tooken. No, they are not. In some periods of English, people used this rule, but later, they changed it to adding “-ed.” Actually, there is nothing irregular in English.
-Language and Culture
-Why different names for the same object — cultural effect on naming objects
+
+# **Language and Culture**
+
+**Why different names for the same object — cultural effect on naming objects**
+
 February 21, 2025 I have another counter argument for this. The arbitrariness argument says that if there is a connection between form and meaning, why are there so many different signs for the same things? For example, Turkish “köpek” and English “dog” represent the same thing but forms are so different. Do they really represent the same thing? “Köpek” represents a dusty street animal in Turkish, and so the dog concept is signed as “köpek” in Turkish language. In English language, dogs are friendly animals. Maybe for this reason their name is more friendly. Let’s look at other cultures. For example, in Arabic the dog concept is very similar to the Turkish dog concept, a dirty animal, and the form is “kelp”. “Köpek” and “kelp” are as similar as “dog” and “hund” (German language for dog). So different signs for different concepts, not the same concept. February 25, 2025 In this view we can say that, while learning a new language, cultural immersiveness would be so helpful. Because words are signed to their concept according to their interpretation by society. Being able to interpret reality in the same way as the target language’s society would be really incremental for language learning because vocabulary is one of the central parts of language.
+
 For example, some sign languages use depiction of mane to sign lion and some sign languages use depiction of pouncing paws (Perniss, Thompson, & Vigliocco, 2010). Actually, this also supports my argument for why there are different signs for some signifiers in spoken languages.
+
 March 2, 2025 Not just cultural differences affect perception of the world, but also societies’ cognitive styles of perception of the world are different. For example, Chinese cognitive style is more “moving self” but English is “moving object”. When interpreting world and objects in reality, both societies use different cognitive perception styles. These differences stem from historical and geographical circumstances. China is more isolated from the rest of the world and their social values — Confucianism — are different than the western values. These are the reasons for the cognitive perception differences. This cognitive differentiation causes different signs for the same object. Because as we mentioned, they do not interpret the world the same way.
+
 Yes, they can be arbitrary, but not all of them. Most would agree that complex things are arbitrary. Twenty-one does not look like this: ıııııııııııııııııııııı. But does two “tu” look like ıı? Or does one “van” look like ı? Maybe, maybe not.
+
 March 22, 2025 Although the words “soul” or “mind” in English seem as an equivalent of “dusha” in Russian, “soul” and “dusha” don’t refer to the same thing. Their form-meaning association is different [8]. They are not the same because of theological, sociological, geographical, physical reasons. There are no two words for one object. There are two words for two objects.
+
 March 22, 2025 Question? How much are they different? If they are completely different, how can we communicate? There should be common sense.
+
 March 23, 2025 Without culture, are our words meaningless? What is the essence of words?
+
 March 23, 2025 English-Spanish bilinguals associate “house” with “window” and “boy” with “girl”, but they associate Spanish “casa” (house) with “madre” (mom) and “muchacho” (boy) with “hombre” (man).[8] This shows though word by word they may seem to have the same meaning, but indeed they are different. This may explain why they are different from each other because there are two meanings that form the form of the word. They are affected by different meanings; as a result, their forms are different.
-March 23, 2025 We said that cultural meaning of the words is the shaper of the form of words. Culture changes over time. This makes it harder to find the iconic relationship of form-meaning. When a cultural feature that specifies the form of the word changes, it is harder to see form-meaning connection. It is like for a non-native language it is arbitrary, but for native speakers it is natural [8]. When you ask a Turkish person why they call cheese “peynir”, they would say it is natural.
+
+March 23, 2025 We said that **cultural meaning of the words is the shaper of the form of words.** Culture changes over time. This makes it harder to find the iconic relationship of form-meaning. When a cultural feature that specifies the form of the word changes, it is harder to see form-meaning connection. It is like for a non-native language it is arbitrary, but for native speakers it is natural [8]. When you ask a Turkish person why they call cheese “peynir”, they would say it is natural.
+
 March 23, 2025 We said that there are no 2 words for the same object, because dog is different than the kelb. How much different are they? We can understand each other most of the time. Text4 [8]
-Origin of language — no differences of words at the beginning
+
+**Origin of language — no differences of words at the beginning**
+
 There is no need to talk about this because we know that all languages have one ancestor — Proto, Proto, Proto, Proto, Proto language. There were no different signifiers for one specific signified. Even in that time, were signs arbitrary?
+
 We can find out by determining common words that come from a common ancestor and trying to understand if there is any connection between the signifier and the signified.
-Neural connections — iconicity more efficient
+
+**Neural connections — iconicity more efficient**
+
 I think at least the concept as it occurs in the mind can affect its signifier. A concept is a neural activity, and this neural activity 100% affects its signifier. After all, I heard from a podcast that because of language, the germs’ names represent germs. For example, “gold” has a deeper voice, but “emerald” has a thinner voice.
+
 February 22, 2025 While learning arbitrary language element signs, our mind relatively stays static, just memorizing the connection — connection between sign and its concept. However, in learning non-arbitrary counterparts of the same language element or sign, our mind would create a more rigid connection structure across different parts and regions of the brain. This model is more logical and appropriate according to our knowledge on how the brain works. As we know, contrary to how it would be believed in the past — certain regions for certain tasks — the brain uses more complex neural processing systems across different regions. Even for simple tasks, the brain uses different regions rigidly for completing tasks more efficiently. Considering this view, non-arbitrariness would be more appropriate for language acquisition and language use. Instead of just calling a word from memory, different brain regions would activate to activate the specific concept’s sign. Because as we know, non-arbitrary language signs created in the mind are affected by certain features of their concepts. May concept connotation in mind affect its sign occurring. For example, the “gold” sign occurs in mind with certain features of gold, which is a more soft metal, and its importance in culture and so on. Different brain regions would activate while giving the sign of “gold” to gold.
+
 March 15, 2025 Neurological effect of iconicity: cross-modal mapping. With iconicity, cross-modal mapping increases (Perniss, Thompson, & Vigliocco, 2010). This means that different regions of the brain evoke activation when words iconically refer to their meaning. For example, with round objects mostly we use “o” sound. This sound occurs by round shape of the mouth. This physical visual activates visual regions of the brain related to that specific concept, and this helps recalling that word. So I mentioned cross-modal mapping. Different brain regions work together for linguistic tasks. This view contrasts with the traditional view that says language use is independent from other cognitive and sensory processes (Perniss, Thompson, & Vigliocco, 2010).
+
 March 15, 2025 They argue that arbitrariness is more economic (Perniss, Thompson, & Vigliocco, 2010). Is it? For learning arbitrary signs, the energy needed is high. Because there is no word storage in the brain — unlike computers, the neuron connections are words. Rather than connecting words to already occurred neurological connections, forcing to create new neurological connections makes it harder to learn, recall, and maintain. So iconicity fits the neurological connection of words.
+
 March 15, 2025 Sometimes when I experience the tip of tongue effect — a state where I know the concept but can’t remember the sign of that concept — I try to create sentences related to that concept. When I activate concepts related to the word I could not remember, I recall the word much more easily and faster. Because as I mentioned, forms and concepts are connected to each other in the brain with neurological connections. So when I activate related concepts, it becomes easier to recall the searching concept. This personal technique is a strong indication of form-meaning connection.
+
 March 15, 2025 Embodiment theory: cognitive processes are affected by the physical world.
+
 March 22, 2025 Spreading activation — semantic network.
-Duality of patterning
+
+**Duality of patterning**
+
 February 26, 2025 Saussure related duality of patterning and arbitrariness strongly to each other. Duality of patterning means that we say dog with “d” “o” “g” sounds. We use these sounds in different words. This lets us create an enormous number of words with limited sounds. This is possible because “d” sound doesn’t mean anything. If “d” sound meant something, for example if “d” sound meant dog and “o” sound meant something else, we could not use them somewhere else without their meaning, and also we would have very little vocabulary. So discrete system of speech. This gives space to arbitrariness. Because each sound doesn’t have meaning but words have meaning, these words cannot bring meaning from their sounds because their sounds don’t have meaning. This means that the mind gave meaning to words, and so words don’t have connection to the real world. I disagree. Yes, sounds don’t have particular meaning but they imply meaning. There is a difference between “t” and “d”. They imply different things. So they have connection to the real world. So because these sounds imply something, their implications’ association will be in the words they are used in. For example, “o” sound implies roundish things. So if a word has an “o” sound, it can have some association to roundishness. But also other sounds have associations, so the form of word occurs based on which association it has with sound. So spiky objects would call for spikiness-associated sounds.
-Abstract sign iconicity
+
+**Abstract sign iconicity**
+
 March 3, 2025 From beginning of studying iconicity or arbitrariness of signs, the heavily abstract concepts were in my head. How can they be iconic? The word “democracy” was in my mind. How can democracy have a connection to the real world? Actually yes, it can. How? We know that “o” sound represents huge and roundish things. The stressed syllable of “democracy” has an “o” sound. I don’t think anyone can argue democracy has no connection to all people in the whole country.
+
 March 22, 2025 For abstract words we need to find their origins because we don’t know what these abstract word meanings were. We can know meanings of concrete words to some extent, but for example what did they mean with “resistance”?
-Even sentence structure is iconic
+
+**Even sentence structure is iconic**
+
 March 3, 2025 Iconicity is proposed against ideas of Saussure’s arbitrariness. Actually until now we talked about non-arbitrariness or iconicity particularly in the context of lexicology-words. In their study, Qiang, Chen, and Li (2022), we can see not just lexicon-words but also syntax-word order in sentence-sentence structure have iconicity. The study emphasizes that language is a natural phenomenon and it cannot be arbitrary from nature; even the most abstract aspect of language has effects of nature. One of them is syntax-sentence structure. One of the iconicity-non arbitrariness of syntax is distance iconicity, which says that in a phrase or sentence, if words are close to each other they are also closely related to each other. Let’s give an example, “the long new blue sports car”. We can see that “sport” is close to car because it is the type of car, and after that is color of car, after that the adjective about age of car which can be subjective, and lastly size of car which is more subjective than the time. We can see that also syntax-sentence structure are strongly non-arbitrary.
-Iconicity in sign language
+
+**Iconicity in sign language**
+
 March 8, 2025 Iconicity is so abundant across all sign languages. Iconicity in sign language is so apparent. For example, some sign languages use depiction of mane to sign lion and some sign languages use depiction of pouncing paws. Actually this also supports my argument for why there are different signs for some signifiers in spoken languages. This kind of iconicity exists across all sign languages. But initial response of scholars and researchers was rejecting this iconic representation. Because iconicity in sign language could imply that sign languages are not real languages, they are just pantomimes and mimics of reality. Why would iconicity mean that? Arbitrariness was seen as the fundamental law of language. If sign languages are not arbitrary, this can mean sign languages are not full-fledged real languages. However, as we know today, even though they have iconicity across them as spoken language does, sign languages are real languages. We know it because an extensive amount of research on sign languages shows us sign language is just real language with its complex sentence structure and full-fledged grammatical rules and all the other things that spoken languages have. Sign languages have all the features of spoken language without any deficit. Sign language simply means that the mind uses hands instead of mouth (Perniss, Thompson, and Vigliocco, 2010). So far, if sign languages are real languages and if they have an abundant amount of iconicity in them, why would spoken languages not have iconicity across themselves?
+
 March 15, 2025 In sign language, visual-spatial features are transferred by gestures.
-The musical features of words
+
+**The musical features of words**
+
 March 14, 2025 Prosody, meaning pitch, tone, and rhythm features of language, particularly words, also transfers meaning. For example, infants are faster at understanding “happy” when it is pronounced with high pitch with cheerful intonation than otherwise. This is very reasonable because the emotion of happy is a state of being high and energetic (Perniss, Thompson, & Vigliocco, 2010). Infants come to the world with this natural expectation — expectation of connection between form and meaning.
+
 March 15, 2025 Gestures and other co-speech tools also iconically help communication happen. All gestures, pitch, and even speed of speech iconically help transfer messages (Perniss, Thompson, & Vigliocco, 2010). Like in sign language, visual-spatial features transfer with gesture because iconicity is so reliable, efficient, and effective. So if every tool for conveying a message is iconic, why would language not be iconic and be arbitrary?
-Iconicity
+
+**Iconicity**
+
 March 15, 2025 Iconicity is a resemblance between properties of linguistic form and its meaning in both spoken language and signed language (Perniss & Vigliocco, 2014).
+
 March 14, 2025 Adults are sensitive to iconic mapping. Adults are faster to associate rounded objects to “mot” than “riff”. “Riff” and “mot” were novel to subjects in this experiment. Similar experiments for infant conditions give the same result (Perniss, Thompson, & Vigliocco, 2010). This shows that iconicity is not learned later. Rather, we are born with the expectation to map form to meaning iconically.
+
 March 15, 2025 Front vowel for small object, back vowel for big object (Perniss, Thompson, & Vigliocco, 2010).
+
 March 15, 2025 Arbitrariness has long been taken for granted for linguistic systems.
+
 March 16, 2025 In a conducted experiment, listeners are able to predict meaning of novel words if prosodic features match with meaning of words (Nygaard, Herold, & Namy, 2009).
+
 March 15, 2025 The concern is that still there is a huge presence of arbitrariness. It should be perished. It is ridiculous.
+
 March 17, 2025 Iconicity was dismissed over years because most studies were about the iconically impoverished Indo-European languages [2]. How did they become iconically impoverished? Indo-European languages were spoken by very different societies and cultures. So maybe in the past, forms were iconically associated with their meaning in their invented culture, but with time cultures changed because of migration and other reasons, but language stayed relatively static. Because in order for language to function, it needs to change for all its users. And this change is so slow and sometimes does not happen.
-Critics for iconicity
+
+**Critics for iconicity**
+
 March 17, 2025 Some studies assert that for large vocabularies, arbitrary form-meaning mapping is more effective because we have a limited number of letters. In an iconic perspective, each letter has some constraints [2]. For example, “o” sound associates with roundish meaning; it is not appropriate to use with spiky meanings. Because of these constraints, arbitrary form-meaning mapping is more effective because it doesn’t have any constraints.
+
 March 17, 2025 In another study, although they admit that languages that need less representation to learn are better [7] — iconic words already in a way represent their meaning so they need less representation — however, if form and meaning association don’t have constraints (iconicity, which we mentioned that in iconicity letters have some implied meaning, for example “o” implies roundish meanings), this allows different forms for the same meaning, which allows different languages [7]. But as I mentioned before, the existence of different languages doesn’t mean there are different forms for the same meaning. Meaning changes from culture to culture, so there are not different forms for the same object. For example, “dog” does not mean the same dog in English culture as in Arabic culture. In Arabic culture, “dog” means a dirty, unfriendly animal, so for this reason its form is not “dog” which has soft letters which imply friendly soft animal, rather its form is “kelb” which implies hard street and not loved animal. So as meaning changes across communities, we cannot expect all of them to still use the same form.
-March 17, 2025 The discussion above provides both a formalization of iconicity and arbitrariness and an account of why human language might have a strong tendency to be arbitrary. For whatever reason, we need to distinguish tens of thousands of categories of objects, attributes, states, and events, and the associations between these categories and the forms that convey them in a language need to be stored in a brain and to be learned through presentations that do not make explicit what the categories are. Under these circumstances, the arbitrariness of the form-meaning association helps keep words separate during learning [7]
+
+> March 17, 2025 The discussion above provides both a formalization of iconicity and arbitrariness and an account of why human language might have a strong tendency to be arbitrary. For whatever reason, we need to distinguish tens of thousands of categories of objects, attributes, states, and events, and the associations between these categories and the forms that convey them in a language need to be stored in a brain and to be learned through presentations that do not make explicit what the categories are. Under these circumstances, the arbitrariness of the form-meaning association helps keep words separate during learning [7]
+> 
+
 March 17, 2025 In this paper they say that because human languages are so big, we need arbitrariness. I say we don’t need it. Human iconicity is not onomatopoeia. Iconicity is so complex and it can serve this need. There is no place for arbitrariness.
-Qiang, Y., Chen, W., & Li, S. (2022). Syntactic iconicity of language. Language and Linguistics, 5(2). https://doi.org/10.23977/langl.2022.050207
-(Qiang, Chen, & Li, 2022)
-Perniss, P., Thompson, R. L., & Vigliocco, G. (2010). Iconicity as a general property of language: Evidence from spoken and signed languages. Frontiers in Psychology, 1, 227. https://doi.org/10.3389/fpsyg.2010.00227
-(Perniss, Thompson, & Vigliocco, 2010)
-Chen, S. (2024). Arbitrariness of linguistic signs and Saussure’s philosophy of language. International Journal on Studies in English Language and Literature (IJSELL), 12(9), 1–5. https://doi.org/10.20431/2347-3134.1209001
-(Chen, 2024)
-Pinker, S. (1994). The language instinct: How the mind creates language. William Morrow.
-(Pinker, 1994).
-Perniss, P., & Vigliocco, G. (2014). The bridge of iconicity: from a world of experience to the experience of language. Philosophical Transactions of the Royal Society B: Biological Sciences, 369(1651), 20130300. https://doi.org/10.1098/rstb.2013.0300
-(Perniss & Vigliocco, 2014)
-Nygaard, L. C., Herold, D. S., & Namy, L. L. (2009). The semantics of prosody: Acoustic and perceptual evidence of prosodic correlates to word meaning. Cognitive Science, 33(1), 127–146. https://doi.org/10.1111/j.1551-6709.2008.01007.x
-(Nygaard, Herold, & Namy, 2009)
-Gasser, M. (2004). The origins of arbitrariness in language. Proceedings of the Annual Meeting of the Cognitive Science Society, 26(26). Retrieved from https://escholarship.org/uc/item/34g8355v
-(Gasser, 2004)
-Kramsch, C. (1998). Language and culture. Oxford University Press.
-(Kramsch, 1998)
+
+1. Qiang, Y., Chen, W., & Li, S. (2022). Syntactic iconicity of language. *Language and Linguistics*, *5*(2). https://doi.org/10.23977/langl.2022.050207
+2. (Qiang, Chen, & Li, 2022)
+3. Perniss, P., Thompson, R. L., & Vigliocco, G. (2010). Iconicity as a general property of language: Evidence from spoken and signed languages. *Frontiers in Psychology, 1*, 227. https://doi.org/10.3389/fpsyg.2010.00227
+4. (Perniss, Thompson, & Vigliocco, 2010)
+5. Chen, S. (2024). *Arbitrariness of linguistic signs and Saussure’s philosophy of language*. International Journal on Studies in English Language and Literature (IJSELL), 12(9), 1–5. https://doi.org/10.20431/2347-3134.1209001
+6. (Chen, 2024)
+7. Pinker, S. (1994). *The language instinct: How the mind creates language*. William Morrow.
+8. (Pinker, 1994).
+9. Perniss, P., & Vigliocco, G. (2014). The bridge of iconicity: from a world of experience to the experience of language. *Philosophical Transactions of the Royal Society B: Biological Sciences, 369*(1651), 20130300. https://doi.org/10.1098/rstb.2013.0300
+10. (Perniss & Vigliocco, 2014)
+11. Nygaard, L. C., Herold, D. S., & Namy, L. L. (2009). The semantics of prosody: Acoustic and perceptual evidence of prosodic correlates to word meaning. *Cognitive Science, 33*(1), 127–146. https://doi.org/10.1111/j.1551-6709.2008.01007.x
+12. (Nygaard, Herold, & Namy, 2009)
+13. Gasser, M. (2004). *The origins of arbitrariness in language*. *Proceedings of the Annual Meeting of the Cognitive Science Society, 26*(26). Retrieved from https://escholarship.org/uc/item/34g8355v
+14. (Gasser, 2004)
+15. Kramsch, C. (1998). *Language and culture.* Oxford University Press.
+16. (Kramsch, 1998)
