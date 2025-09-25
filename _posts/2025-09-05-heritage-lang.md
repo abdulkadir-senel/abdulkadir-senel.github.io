@@ -4,6 +4,10 @@ title: "Cross-linguistic influence of heritage language: A Literature Review"
 date: 2024-11-05
 categories: [academic]
 ---
+This paper published in the inaugural issue (Vol. 1, No. 1 – June 2025) of Studies in Linguistics and Language Education (SLLE).
+https://revue.univ-oran2.dz/slle/index.php/slle/article/view/5
+
+
 **Cross-linguistic influence of heritage language: A Literature Review**
 
 Abdulkadir Şenel - Gaziantep University             
