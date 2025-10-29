@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Presenter at - ÇUKUROVA ÜNİVERSİTESİ-INTERNATIONAL LANGUAGE-FOR-ALL CONFERENCE - LFAC"
+title: "ÇUKUROVA ÜNİVERSİTESİ-INTERNATIONAL LANGUAGE-FOR-ALL CONFERENCE"
 date: 2025-10-16
 categories: [events]
 ---
