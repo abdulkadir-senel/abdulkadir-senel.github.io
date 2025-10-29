@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ÇUKUROVA ÜNİVERSİTESİ-INTERNATIONAL LANGUAGE-FOR-ALL CONFERENCE"
+title: "INTERNATIONAL LANGUAGE-FOR-ALL CONFERENCE - Çukurova Universty"
 date: 2025-10-16
 categories: [events]
 ---
