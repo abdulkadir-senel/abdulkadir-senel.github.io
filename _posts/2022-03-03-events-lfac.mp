@@ -4,6 +4,9 @@ title: "INTERNATIONAL LANGUAGE-FOR-ALL CONFERENCE - Çukurova Universty"
 date: 2025-10-16
 categories: [events]
 ---
-![Alt text for screen readers]({{ site.baseurl }}/images/2022-03-03-Start-of-My-Writing-Thing.jpg)
+I present my study about Cross-linguistic of Heritage Language Influence at Aanguage For All Conference with my Professor Tzu yu Allison Lin.
 
-Before write a lot of thing I wanna mention that in this paragraph everything will be so chaotic and because of my English it is will be more incomprehensible. But this is a not huge problem .The main problem is being patience and being consistent .
+![Alt text for screen readers]({{ site.baseurl }}/images/lfac-1.jpg)
+![Alt text for screen readers]({{ site.baseurl }}/images/lfac-2.jpg)
+
+
