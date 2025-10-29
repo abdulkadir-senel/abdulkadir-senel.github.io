@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "events"
-date: 2022-03-03
+title: "Presenter at - ÇUKUROVA ÜNİVERSİTESİ-INTERNATIONAL LANGUAGE-FOR-ALL CONFERENCE - LFAC"
+date: 2025-10-16
 categories: [events]
 ---
 ![Alt text for screen readers]({{ site.baseurl }}/images/2022-03-03-Start-of-My-Writing-Thing.jpg)
