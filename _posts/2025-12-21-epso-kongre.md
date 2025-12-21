@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Eğitim, Psikoloji ve Sosyal Araştırmalar Öğrenci Kongresi"
-date: 2025-10-16
+date: 2025-12-21
 categories: [events]
 ---
 I present my paper titled "Beyond the Ivory Tower: Optimizing Vocabulary Learning for the Real-Classrooms".
